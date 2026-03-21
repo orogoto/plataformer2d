@@ -6,6 +6,12 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
+    [Header("Player")]
+    public GameObject player;
+
+    [Header("Enemies")]
+    public List<GameObject> enemies;
+
     public void Awake()
     {
         if (Instance == null)
@@ -13,4 +19,5 @@ public class GameManager : MonoBehaviour
         else
             Destroy(gameObject);
     }
+
 }
