@@ -664,4 +664,5 @@ MonoBehaviour:
   myrigibody: {fileID: 1875249858}
   friction: {x: -0.1, y: 0}
   speed: 10
+  speedrun: 30
   jumpforce: 15
