@@ -1001,7 +1001,7 @@ MonoBehaviour:
   speed: 10
   speedrun: 30
   jumpforce: 15
-  animationDuration: 0.3
+  animationDuration: 0.2
 --- !u!114 &1875249863
 MonoBehaviour:
   m_ObjectHideFlags: 0
