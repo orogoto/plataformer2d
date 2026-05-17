@@ -15,7 +15,13 @@ public class EnemyBase : MonoBehaviour
         if (health != null)
         {
             health.Damage(damage);
+            Destroy(health.gameObject);
+            
         }
+        //else (health = null)
+        {
+            
+        }    
     }
 
     
