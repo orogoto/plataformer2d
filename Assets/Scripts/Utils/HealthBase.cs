@@ -5,17 +5,13 @@ using UnityEngine;
 public class HealthBase : MonoBehaviour
 {
     public int startlife = 10;
-
     private int _currentlife;
-
     private bool _isDead = false;
-
     public  bool DestroyOnKill = false;
 
     public void Awake()
     {
         init();
-       
     }
 
     private void init()
