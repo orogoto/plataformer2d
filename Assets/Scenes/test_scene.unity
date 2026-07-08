@@ -260,12 +260,12 @@ MonoBehaviour:
   m_ScreenX: 0.5
   m_ScreenY: 0.6238936
   m_CameraDistance: 10
-  m_DeadZoneWidth: 0.61
-  m_DeadZoneHeight: 0.91
+  m_DeadZoneWidth: 0.68
+  m_DeadZoneHeight: 1.01
   m_DeadZoneDepth: 0
   m_UnlimitedSoftZone: 0
-  m_SoftZoneWidth: 0.7
-  m_SoftZoneHeight: 0.91
+  m_SoftZoneWidth: 0.81
+  m_SoftZoneHeight: 1.01
   m_BiasX: 0
   m_BiasY: 0
   m_CenterOnActivate: 1
@@ -1049,7 +1049,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 319693531}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.2192452, y: -3.6341195, z: -10}
+  m_LocalPosition: {x: -0.21924615, y: -3.6341195, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2886,6 +2886,8 @@ MonoBehaviour:
   damage: 10
   animator: {fileID: 0}
   triggerAttack: Attack
+  triggerKill: Kill
+  healthBase: {fileID: 0}
 --- !u!50 &898718790
 Rigidbody2D:
   serializedVersion: 4
@@ -3307,6 +3309,8 @@ MonoBehaviour:
   damage: 10
   animator: {fileID: 1599557779}
   triggerAttack: Attack
+  triggerKill: Death
+  healthBase: {fileID: 0}
 --- !u!4 &1049164102
 Transform:
   m_ObjectHideFlags: 0
@@ -3990,7 +3994,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1345457276}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.2192452, y: -3.6341195, z: -10}
+  m_LocalPosition: {x: -0.21924615, y: -3.6341195, z: -10}
   m_LocalScale: {x: 1.59, y: 1, z: 1}
   m_Children:
   - {fileID: 52705215}
@@ -5024,7 +5028,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.058083057, y: 3.2417865}
+  m_Offset: {x: -0.058083057, y: 2.949863}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -5035,7 +5039,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.921193, y: 7.0582}
+  m_Size: {x: 5.921193, y: 7.642047}
   m_EdgeRadius: 0
 --- !u!50 &1910204105
 Rigidbody2D:
@@ -5251,7 +5255,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1953072639}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.27, y: 0.13, z: 0}
+  m_LocalPosition: {x: 2.27, y: 0.69, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1070133996}
